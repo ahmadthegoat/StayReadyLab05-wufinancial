@@ -25,7 +25,7 @@ public class MoneyTest {
         Money money = new Money();
 
         // When
-        Double expected = .94;
+        Double expected = 1.06;
         Double actual = money.EUROtoUS(1.0);
 
         // Then
@@ -38,7 +38,7 @@ public class MoneyTest {
         Money money = new Money();
 
         // When
-        Double expected = .82;
+        Double expected = .88;
         Double actual = money.EUROtoBRIT(1.0);
 
         // Then
